@@ -1,0 +1,43 @@
+*{
+    margin: auto;
+    font-family: Verdana;
+ }
+ #eclipse{
+   background-color: rgb(0, 0, 0);
+   margin-left: 1px;
+ }
+ #menuairo{
+   background-color: rgba(8, 12, 10, 0.753);
+
+}
+.menuairo div{
+inline-size: auto;
+height: 80px;
+display: flex;
+justify-content: space-between;
+width: 1000px;
+}
+li{
+  display: inline-block;
+  margin-right: 14.7%;
+}
+.info{
+  margin-left: 10px;
+}
+ #menuairo ul {
+   max-width: 1800px;
+   list-style: none;
+   padding: 0;
+ }
+
+ #menuairo ul li a{
+   color:#ffffff;
+   padding:20px;
+   display: inline-block;
+   transition: background .5s;
+ }
+ #menuairo ul li a:hover{
+   background-color: rgba(23, 24, 24, 0.699);
+
+ }
+
