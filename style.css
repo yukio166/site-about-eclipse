@@ -9,16 +9,25 @@
  #menuairo{
    background-color: rgba(8, 12, 10, 0.753);
 
+
+  }
+  body{
+    background-image:url("/img/galax.jpg");
+    background-repeat: no-repeat;
+  }
+.opt{
+  justify-content: center;
 }
 .menuairo div{
 inline-size: auto;
 height: 80px;
 display: flex;
-justify-content: space-between;
+
 width: 1000px;
 }
 li{
   display: inline-block;
+
   margin-right: 14.7%;
 }
 .info{
