@@ -1,7 +1,10 @@
 *{
     margin: auto;
     font-family: Verdana;
- }
+    color: #ffffff;
+  }
+
+  
  #eclipse{
    background-color: rgb(0, 0, 0);
    margin-left: 1px;
@@ -13,6 +16,7 @@
   }
   body{
     background-image:url("/img/galax.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
   }
 .opt{
