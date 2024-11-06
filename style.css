@@ -1,10 +1,7 @@
 *{
     margin: auto;
     font-family: Verdana;
-    color: #ffffff;
-  }
-
-  
+ }
  #eclipse{
    background-color: rgb(0, 0, 0);
    margin-left: 1px;
@@ -12,26 +9,16 @@
  #menuairo{
    background-color: rgba(8, 12, 10, 0.753);
 
-
-  }
-  body{
-    background-image:url("/img/galax.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-.opt{
-  justify-content: center;
 }
 .menuairo div{
 inline-size: auto;
 height: 80px;
 display: flex;
-
+justify-content: space-between;
 width: 1000px;
 }
 li{
   display: inline-block;
-
   margin-right: 14.7%;
 }
 .info{
