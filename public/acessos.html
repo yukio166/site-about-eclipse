@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem de Acessos</title>
+</head>
+<body>
+    <h1>Contagem de Acessos</h1>
+    <p>O site foi acessado <span id="counter">0</span> vezes.</p>
+
+    <script>
+        fetch('/contador')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('counter').textContent = data.count;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar contador:', error);
+            });
+    </script>
+</body>
+</html>
