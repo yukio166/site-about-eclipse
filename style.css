@@ -38,7 +38,7 @@ html {
   align-items: center;
   box-shadow: 0.2rem 0.2rem 0.2rem #000000;
   transition: top 0.4s;
-  background-image: url('./images/banner.jpg');
+  background-image: url('./images/matiasbonito.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -151,6 +151,11 @@ html {
   top: -15rem;
   left: calc(50% - 0.15rem);
   box-shadow: 0.1rem 0rem 0.1rem #0000;
+}
+
+.contOneTxt {
+  font-size:2rem;
+  color: #fff;
 }
 
 .section-1 {
@@ -675,26 +680,4 @@ html {
   position: absolute;
   top: 10px;
   right: 10px;
-}
-.Fechada {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: red;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-
-button {
-  margin: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
 }
